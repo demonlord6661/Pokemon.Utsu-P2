@@ -68,6 +68,8 @@ var charmander1 = {
     "weight": 85
 }
 
+const charmander1 = JSON.stringify(obj1);
+
 var charmeleon1 = {
     "abilities": [
         {
@@ -137,6 +139,8 @@ var charmeleon1 = {
                                     ],
                                         "weight": 190
 }
+
+const charmeleon1 = JSON.stringify(obj2);
 
 var charizard1 = {
     "abilities": [
@@ -213,3 +217,5 @@ var charizard1 = {
                                     ],
                                         "weight": 905
 }
+
+const charizard1 = JSON.stringify(obj3);

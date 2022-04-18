@@ -1,5 +1,5 @@
 #gradient {
-  height: 200px;
+  height: 12.5rem;
   background-color: #cccccc;
   background-image: linear-gradient(red, yellow);
 }
@@ -9,20 +9,26 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #b08d57;
+}
+
+.solid {
+  border-style: solid;
+}
+
+.letters1 {
+  text-align: center;
 }
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
+  width: 18.75rem;
+  height: 18.75rem;
+  perspective: 62.5rem;
 }
 
 .flip-card-inner {
   width: 100%;
   height: 100%;
-  text-align: center;
   transition: transform 2s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -44,13 +50,7 @@ body {
   backface-visibility: hidden;
 }
 
-.flip-card-front {
-  background-color: #b08d57;
-  color: black;
-}
-
 .flip-card-back {
   background-color: brown;
-  color: white;
   transform: rotateY(180deg);
 }/*# sourceMappingURL=main.css.map */
